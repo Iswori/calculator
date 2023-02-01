@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./cal.css"/>
+</head>
+<body>
+    <div class="suja">
+        <div>
+            <input id="show" type="text" value="0" placeholder=""/>
+        </div>
+        <div class="sub">
+            <button class="gray">mc</button>
+            <button class="gray">mr</button>
+            <button class="gray">m-</button>
+            <button class="gray">m+</button>
+            <button onclick="Clear()" class="gray">AC</button>
+            <button class="gray">x</button>
+            <button class="gray">%</button>
+            <button onclick="Opt('/')" class="yellow">/</button>
+            <button onclick="Value(7)">7</button>
+            <button onclick="Value(8)">8</button>
+            <button onclick="Value(9)">9</button>
+            <button onclick="Opt('*')" class="yellow">*</button>
+            <button onclick="Value(4)">4</button>
+            <button onclick="Value(5)">5</button>
+            <button onclick="Value(6)">6</button>
+            <button onclick="Opt('-')" class="yellow">-</button>
+            <button onclick="Value(1)">1</button>
+            <button onclick="Value(2)">2</button>
+            <button onclick="Value(3)">3</button>
+            <button onclick="Opt('+')" class="yellow">+</button>
+            <button onclick="Value(0)">0</button>
+            <button onclick="Value('.')">.</button>
+            <button>+/-</button>
+            <button  onclick="Result()" class="yellow">=</button>
+            <button class="gray">pi</button>
+            <button class="gray">x^2</button>
+            <button class="gray">R2</button>
+            <button class="gray">R0</button>
+
+<script src="./cal.js"></script>
+        </div>
+    </div>
+</body>
+</html>
